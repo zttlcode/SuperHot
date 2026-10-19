@@ -1,0 +1,501 @@
+{
+  "_fixture_note": "Field layout taken from the 2026-10-20 diagnostic; identifiers, text, timestamps, URLs and cursors replaced. No credentials or real author content.",
+  "code": 200,
+  "data": {
+    "pinned": {
+      "tweet_id": "1900000000000000001",
+      "bookmarks": 0,
+      "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+      "favorites": 0,
+      "text": "Sanitized sample text",
+      "lang": "en",
+      "source": null,
+      "views": "0",
+      "sensitive": false,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "conversation_id": "1900000000000000001",
+      "media": {
+        "video": [
+          {
+            "media_url_https": "https://pbs.twimg.com/sanitized/sample-1.jpg",
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/sanitized/sample-2.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/sanitized/sample-3.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/sanitized/sample-4.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/sanitized/sample-5.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/sanitized/sample-6.mp4"
+              }
+            ],
+            "id": "1900000000000000002"
+          }
+        ]
+      },
+      "author": {
+        "rest_id": "9001",
+        "name": null,
+        "screen_name": null,
+        "avatar": null,
+        "followers_count": null,
+        "blue_verified": true
+      }
+    },
+    "next_cursor": "opaque-sanitized-next_cursor/+=",
+    "prev_cursor": "opaque-sanitized-prev_cursor/+=",
+    "status": "ok",
+    "timeline": [
+      {
+        "tweet_id": "1900000000000000003",
+        "bookmarks": 0,
+        "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+        "favorites": 0,
+        "text": "Sanitized sample text",
+        "lang": "en",
+        "sensitive": false,
+        "source": null,
+        "views": "0",
+        "quotes": 0,
+        "entities": {
+          "user_mentions": [
+            {
+              "id_str": "1900000000000000004",
+              "name": "Sanitized sample text",
+              "screen_name": "sample_author"
+            }
+          ]
+        },
+        "replies": 0,
+        "retweets": 0,
+        "conversation_id": "1900000000000000003",
+        "media": {
+          "video": [
+            {
+              "media_url_https": "https://pbs.twimg.com/sanitized/sample-7.jpg",
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/sanitized/sample-8.m3u8"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-9.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-10.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-11.mp4"
+                }
+              ],
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration": 30080,
+              "original_info": {
+                "focus_rects": [],
+                "height": 720,
+                "width": 1280
+              },
+              "id": "1900000000000000005"
+            }
+          ]
+        },
+        "author": {
+          "rest_id": "9001",
+          "name": null,
+          "screen_name": null,
+          "avatar": null,
+          "followers_count": null,
+          "blue_verified": true
+        }
+      },
+      {
+        "tweet_id": "1900000000000000006",
+        "bookmarks": 0,
+        "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+        "favorites": 0,
+        "text": "Sanitized sample text",
+        "lang": "en",
+        "sensitive": null,
+        "source": null,
+        "views": "0",
+        "quotes": 0,
+        "entities": [],
+        "replies": 0,
+        "retweets": 0,
+        "conversation_id": "1900000000000000006",
+        "media": [],
+        "author": {
+          "rest_id": "9001",
+          "name": null,
+          "screen_name": null,
+          "avatar": null,
+          "followers_count": null,
+          "blue_verified": true
+        },
+        "quoted": {
+          "tweet_id": "1900000000000000007",
+          "bookmarks": 0,
+          "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+          "favorites": 0,
+          "text": "Sanitized sample text",
+          "lang": "en",
+          "views": "0",
+          "sensitive": false,
+          "quotes": 0,
+          "replies": 0,
+          "retweets": 0,
+          "conversation_id": "1900000000000000007",
+          "author": {
+            "rest_id": "1900000000000000008",
+            "name": null,
+            "screen_name": null,
+            "avatar": null,
+            "followers_count": null,
+            "blue_verified": true
+          },
+          "media": {
+            "video": [
+              {
+                "media_url_https": "https://pbs.twimg.com/sanitized/sample-12.jpg",
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/sanitized/sample-13.m3u8"
+                  },
+                  {
+                    "bitrate": 256000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-14.mp4"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-15.mp4"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-16.mp4"
+                  }
+                ],
+                "aspect_ratio": [
+                  16,
+                  9
+                ],
+                "duration": 33227,
+                "original_info": {
+                  "focus_rects": [],
+                  "height": 720,
+                  "width": 1280
+                },
+                "id": "1900000000000000009"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "tweet_id": "1900000000000000010",
+        "bookmarks": 0,
+        "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+        "favorites": 0,
+        "text": "Sanitized sample text",
+        "lang": "en",
+        "views": "0",
+        "sensitive": null,
+        "quotes": 0,
+        "replies": 0,
+        "retweets": 0,
+        "conversation_id": "1900000000000000011",
+        "media": [],
+        "reply_to": "1900000000000000011",
+        "entities": [],
+        "author": {
+          "rest_id": "9001",
+          "name": null,
+          "screen_name": null,
+          "avatar": null,
+          "followers_count": null,
+          "blue_verified": true
+        }
+      },
+      {
+        "tweet_id": "1900000000000000012",
+        "bookmarks": 0,
+        "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+        "favorites": 0,
+        "text": "Sanitized sample text",
+        "lang": "en",
+        "sensitive": false,
+        "source": "Sanitized sample text",
+        "views": "0",
+        "quotes": 0,
+        "entities": {
+          "user_mentions": [
+            {
+              "id_str": "1900000000000000013",
+              "name": "Sanitized sample text",
+              "screen_name": "sample_author"
+            },
+            {
+              "id_str": "1900000000000000014",
+              "name": "Sanitized sample text",
+              "screen_name": "sample_author"
+            }
+          ]
+        },
+        "replies": 0,
+        "retweets": 0,
+        "conversation_id": "1900000000000000012",
+        "media": {
+          "video": [
+            {
+              "media_url_https": "https://pbs.twimg.com/sanitized/sample-17.jpg",
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/sanitized/sample-18.m3u8"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-19.mp4"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-20.mp4"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-21.mp4"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/sanitized/sample-22.mp4"
+                }
+              ],
+              "aspect_ratio": [
+                4,
+                3
+              ],
+              "duration": 26774,
+              "original_info": {
+                "focus_rects": [],
+                "height": 1080,
+                "width": 1440
+              },
+              "id": "1900000000000000015"
+            }
+          ]
+        },
+        "author": {
+          "rest_id": "9001",
+          "name": null,
+          "screen_name": null,
+          "avatar": null,
+          "followers_count": null,
+          "blue_verified": true
+        },
+        "retweeted": {
+          "id": "1900000000000000016"
+        },
+        "retweeted_tweet": {
+          "tweet_id": "1900000000000000016",
+          "bookmarks": 0,
+          "created_at": "Mon Oct 19 10:00:00 +0000 2026",
+          "favorites": 0,
+          "text": "Sanitized sample text",
+          "lang": "en",
+          "sensitive": false,
+          "views": "0",
+          "quotes": 0,
+          "entities": {
+            "media": [
+              {
+                "additional_media_info": {
+                  "monetizable": false
+                },
+                "allow_download_status": {
+                  "allow_download": true
+                },
+                "display_url": "Sanitized sample text",
+                "expanded_url": "https://example.test/sanitized/sample-23.jpg",
+                "ext_media_availability": {
+                  "status": "Available"
+                },
+                "id_str": "1900000000000000015",
+                "indices": [
+                  85,
+                  108
+                ],
+                "media_key": "Sanitized sample text",
+                "media_results": {
+                  "result": {
+                    "media_key": "Sanitized sample text"
+                  }
+                },
+                "media_url_https": "https://pbs.twimg.com/sanitized/sample-17.jpg",
+                "original_info": {
+                  "focus_rects": [],
+                  "height": 1080,
+                  "width": 1440
+                },
+                "sizes": {
+                  "large": {
+                    "h": 1080,
+                    "resize": "Sanitized sample text",
+                    "w": 1440
+                  },
+                  "medium": {
+                    "h": 900,
+                    "resize": "Sanitized sample text",
+                    "w": 1200
+                  },
+                  "small": {
+                    "h": 510,
+                    "resize": "Sanitized sample text",
+                    "w": 680
+                  },
+                  "thumb": {
+                    "h": 150,
+                    "resize": "Sanitized sample text",
+                    "w": 150
+                  }
+                },
+                "type": "Sanitized sample text",
+                "url": "https://example.test/sanitized/sample-24.jpg",
+                "video_info": {
+                  "aspect_ratio": [
+                    4,
+                    3
+                  ],
+                  "duration_millis": 26774,
+                  "variants": [
+                    {
+                      "content_type": "application/x-mpegURL",
+                      "url": "https://video.twimg.com/sanitized/sample-18.m3u8"
+                    },
+                    {
+                      "bitrate": 256000,
+                      "content_type": "video/mp4",
+                      "url": "https://video.twimg.com/sanitized/sample-19.mp4"
+                    },
+                    {
+                      "bitrate": 832000,
+                      "content_type": "video/mp4",
+                      "url": "https://video.twimg.com/sanitized/sample-20.mp4"
+                    },
+                    {
+                      "bitrate": 2176000,
+                      "content_type": "video/mp4",
+                      "url": "https://video.twimg.com/sanitized/sample-21.mp4"
+                    },
+                    {
+                      "bitrate": 10368000,
+                      "content_type": "video/mp4",
+                      "url": "https://video.twimg.com/sanitized/sample-22.mp4"
+                    }
+                  ]
+                }
+              }
+            ],
+            "user_mentions": [
+              {
+                "id_str": "1900000000000000014",
+                "indices": [
+                  66,
+                  75
+                ],
+                "name": "Sanitized sample text",
+                "screen_name": "sample_author"
+              }
+            ]
+          },
+          "replies": 0,
+          "retweets": 0,
+          "conversation_id": "1900000000000000016",
+          "author": {
+            "rest_id": "1900000000000000013",
+            "name": null,
+            "screen_name": null,
+            "avatar": null,
+            "blue_verified": true
+          },
+          "media": {
+            "video": [
+              {
+                "media_url_https": "https://pbs.twimg.com/sanitized/sample-17.jpg",
+                "variants": [
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/sanitized/sample-18.m3u8"
+                  },
+                  {
+                    "bitrate": 256000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-19.mp4"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-20.mp4"
+                  },
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-21.mp4"
+                  },
+                  {
+                    "bitrate": 10368000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/sanitized/sample-22.mp4"
+                  }
+                ],
+                "aspect_ratio": [
+                  4,
+                  3
+                ],
+                "duration": 26774,
+                "original_info": {
+                  "focus_rects": [],
+                  "height": 1080,
+                  "width": 1440
+                },
+                "id": "1900000000000000015"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

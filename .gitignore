@@ -205,6 +205,17 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# SuperHot local development and private runtime data
+.idea/
+.env.*
+!.env.example
+.runtime/
+.secrets/
+backups/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
 # Ruff stuff:
 .ruff_cache/
 

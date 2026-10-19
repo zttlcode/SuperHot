@@ -1,0 +1,62 @@
+{
+  "code": 200,
+  "data": {
+    "user": {
+      "result": {
+        "timeline_v2": {
+          "timeline": {
+            "instructions": [
+              {
+                "type": "TimelineAddEntries",
+                "entries": [
+                  {
+                    "content": {
+                      "itemContent": {
+                        "tweet_results": {
+                          "result": {
+                            "__typename": "Tweet",
+                            "rest_id": "1900000000000000001",
+                            "core": {"user_results": {"result": {"rest_id": "9001", "legacy": {"screen_name": "sample_creator", "name": "Sample Creator"}}}},
+                            "legacy": {"full_text": "A synthetic text post for offline compatibility checks.", "created_at": "Mon Oct 19 10:00:00 +0000 2026"}
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "content": {
+                      "itemContent": {
+                        "tweet_results": {
+                          "result": {
+                            "__typename": "TweetWithVisibilityResults",
+                            "tweet": {
+                              "rest_id": "1900000000000000002",
+                              "core": {"user_results": {"result": {"rest_id": "9001", "legacy": {"screen_name": "sample_creator", "name": "Sample Creator"}}}},
+                              "legacy": {
+                                "full_text": "Synthetic mixed media.",
+                                "created_at": "Mon Oct 19 11:00:00 +0000 2026",
+                                "extended_entities": {"media": [
+                                  {"id_str": "media-photo", "type": "photo", "media_url_https": "https://pbs.twimg.com/media/sample.jpg"},
+                                  {"id_str": "media-video", "type": "video", "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/sample.jpg", "video_info": {"variants": [
+                                    {"content_type": "application/x-mpegURL", "url": "https://video.twimg.com/sample.m3u8"},
+                                    {"content_type": "video/mp4", "bitrate": 256000, "url": "https://video.twimg.com/sample-low.mp4"},
+                                    {"content_type": "video/mp4", "bitrate": 832000, "url": "https://video.twimg.com/sample-high.mp4"}
+                                  ]}}
+                                ]}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {"content": {"cursorType": "Bottom", "value": "opaque-cursor/+=do-not-convert"}}
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

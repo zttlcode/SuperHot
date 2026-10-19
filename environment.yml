@@ -1,0 +1,9 @@
+name: SuperHot-dev
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - nodefaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - -r backend/requirements.txt
